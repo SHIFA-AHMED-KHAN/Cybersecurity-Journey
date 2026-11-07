@@ -2,9 +2,8 @@
 
 Learning Cybersecurity from scratch(zero) --> eJPT 
 
-## Progress
 
-DAY  |              FOCUS                  | STATUS 
-
-
-01      VirtualBox & Kali Linux setup     Done 
+## 📅 Progress
+- [x] Day 01 – Installed VirtualBox and Kali Linux
+- [x] Day 02 – Made accounts on TryHackMe, PortSwigger Academy. Installed Obsidian.
+- [x] Day 03 – Created tools/ and writeups/ folders on GitHub
