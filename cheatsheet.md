@@ -6,7 +6,7 @@
 - If a VM says "Inaccessible", its files are missing. Download the .7z again, extract it and double-click the .vbox file.
 
   ----------------
-  ## Day 02 -
+  ## Day 02 - 6 November 2026
 ## Day 2 – Account & Tools Setup ( 6 November 2026) 
 1. **TryHackMe** = hands-on hacking practice on safe, pretend machines.
 2. **PortSwigger Academy** = free labs for website hacking (SQLi, XSS). Tool: **Burp Suite**.
@@ -16,3 +16,13 @@
 - `ping <IP>` → check if a machine is online
 - `nmap <IP>` → find open ports (doors) on a machine
 - `whoami` → shows which user I am
+
+----------------------------
+## Day 03 - 7 November 2026 
+
+## GitHub tips
+- Type `folder/file.md` when creating a file to make a folder
+- Move a file: edit it, then change its path in the name box
+- Empty folders don't exist in Git, so add a `.gitkeep` or `README.md`
+
+- -------------------------------
