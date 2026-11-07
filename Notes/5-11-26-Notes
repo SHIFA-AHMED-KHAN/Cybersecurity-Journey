@@ -14,3 +14,16 @@ My previous version of Kali Linux would show up as Inaccessible due to VirtualBo
 VirtualBox requires the files for the VM to run a virtual computer.
 The C:\Kali folder should never be deleted as it contains important files for the virtual machine.
 Deleting these files can break Kali or cause you to lose your setup.
+
+
+
+-------------------------------------
+Saturday (7 November 2026 ) 
+
+  1. **What it is:** GitHub is a website that stores my code and notes online using Git.
+  2. **Why it matters:** It's my public portfolio. Recruiters can see my progress.
+  3. **Example:** Typing `writeups/file.md` as a file name creates a folder automatically.
+  4. **Confused me:** GitHub can't make empty folders. I need a file inside them.
+  5. **Next:** Start TryHackMe Linux Fundamentals Part 1.
+
+----------------------------------
