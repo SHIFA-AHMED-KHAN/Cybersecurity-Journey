@@ -26,3 +26,8 @@
 - Empty folders don't exist in Git, so add a `.gitkeep` or `README.md`
 
 - -------------------------------
+## Day 04 - 8 November 2026
+
+   - `sudo apt update && sudo apt upgrade -y` → update Kali
+   - `git add . && git commit -m "msg" && git push` → save work to GitHub
+   - VirtualBox: snapshot your VM before big changes so you can roll back
