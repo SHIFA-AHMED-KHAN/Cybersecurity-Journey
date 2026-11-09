@@ -48,7 +48,7 @@ where am i ?
 Note : blue = folders & white = files
 # find -name file
 find a fiel by its name
-# grey "word" file
+# grep "word" file
 search a word in this file
 
 # &
