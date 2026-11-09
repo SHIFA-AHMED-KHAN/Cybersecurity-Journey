@@ -31,3 +31,34 @@
    - `sudo apt update && sudo apt upgrade -y` → update Kali
    - `git add . && git commit -m "msg" && git push` → save work to GitHub
    - VirtualBox: snapshot your VM before big changes so you can roll back
+- -------------------------------
+## Day 05 - 9 November 2026
+## BASIC COMMANDS:
+#whoami = which user
+#echo= repeat / display the output
+# ls 
+list all the folders
+# cd foldername
+go to this folder/ open it 
+# cat filename
+open a note + read it 
+# pwd
+where am i ? 
+
+Note : blue = folders & white = files
+# find -name file
+find a fiel by its name
+# grey "word" file
+search a word in this file
+
+# &
+run this command inn teh background
+
+# &&
+run this then that 
+
+# >
+overwrite the file content
+echo "hello" > notes.txt
+# >> 
+write the content at the end 
