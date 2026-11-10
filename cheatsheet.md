@@ -62,3 +62,35 @@ overwrite the file content
 echo "hello" > notes.txt
 # >> 
 write the content at the end 
+
+- -------------------------------
+## Day 06 - 10 November 2026
+**SSH**= ssh username@ip_address
+**ls**
+list all the files in the directory
+**ls -a**
+list all the files in the directory + the hidden ones too
+**ls -lh**
+size+files
+**ls --help**
+quick cheatsheet
+**man ls**
+detailed manual
+
+**make a new file**=touch filename
+**make a new directory** = mkdir foldername
+**copy contents** = cp file1 file2
+**move contents** = mv file1 file2
+**remove a file**= rm filename
+**remove a folder**=rm -R foldername
+
+**settings** = /etc
+**administrative control or boss** =/root
+**logs**=/var/log
+**temporary storage**=/tmp
+
+**in your room** = su user2
+**in their room**=su -l user2
+**come back to your original room/state**= exit
+
+
