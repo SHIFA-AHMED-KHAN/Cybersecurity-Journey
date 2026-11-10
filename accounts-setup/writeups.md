@@ -20,3 +20,7 @@ Day: Friday
   
   2. Obsidian notes are just plain .md files in a folder, just like my GitHub files. But the interface is quite user-friendly especially for
      people like me who lose focus when things are presented in a very jumbled or compliacted fashion. 
+________-
+Date : 10 November 2026 
+Day: Tuesday
+## Paid For TryhackMe premium version to get access to more rooms and lectures.
