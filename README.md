@@ -8,4 +8,6 @@ Learning Cybersecurity from scratch(zero) --> eJPT
 - [x] Day 02 – Made accounts on TryHackMe, PortSwigger Academy. Installed Obsidian.
 - [x] Day 03 – Created tools/ and writeups/ folders on GitHub
 - [x] Day 04 – Weekly review, flashcards +  planned Week 1
-- [x] Day 05 – Weekly review, TryHackMe Linux Fundamentals-1(completed the whole room) 
+- [x] Day 05 – Weekly review, TryHackMe Linux Fundamentals-1(completed the whole room)
+- [x] Day 06 – Review of THM Linux Fundamentals part 1 , TryHackMe Linux Fundamentals-2(completed the whole room)
+
