@@ -93,4 +93,82 @@ detailed manual
 **in their room**=su -l user2
 **come back to your original room/state**= exit
 
+## Linux Commands part 3 
+
+## Terminal Text Editors
+
+**Open A File to Edit It**= nano filename
+**up arrow**= move up
+**down arrow**= move down
+**enter key**= next line
+**save a file**= Control+O
+**exit a file**=Control+X
+**Search something in the file**=Control+W
+*ctrl=^ in linux*
+
+## VIM ( Vi-Improved)
+Advanced text editor
+**edit** = i 
+**exit** = 1. esc key | 2. :q! | 3.enter 
+
+**Pros**
+- Customisable: You can change keyboard shortcuts to your liking.
+    
+- Syntax Highlighting: Shows code in different colours to make it easier to read.
+    
+- Works Everywhere: Vim works on almost all terminals, even when Nano isn't installed.
+    
+- Learning Resources: Many cheatsheets and tutorials are available to help you learn Vim.
+
+_______
+## Day 07 - 11 November 2026 
+
+
+## General/Useful Utilities
+
+**Download a file(like clicking a download link)**=wget URL
+**Quickly copy a folder** = SCP
+*syntax*
+scp filename username@  ip-address: location
+*to get it back / modicfied version*
+scp username@ ip-address: location filename
+
+**enter a remote file manager**= SFTP
+*Syntax*
+sftp username @ipaddress
+*Commands you can use*
+|Command|Real-life meaning|
+|---|---|
+|`ls`|Look at the files in the room|
+|`get notes.pdf`|Take a file from their room|
+|`put notes.pdf`|Put your file in their room|
+|`rename old.txt new.txt`|Rename their file|
+|`rm notes.pdf`|Remove a file|
+|`exit`|Leave the room|
+
+**turn folder into tiny website**
+python3 -m http.server
+*port 8000*
+_____
+
+## PROCESSES 101
+**Running on your terminal** = ps
+**running on your terminal + elsewhere** = ps aux
+**Live list of programs running** = top 
+
+**PID**= Process id for the running application 
+
+**save before exiting / proper way/ default)** = kill -SIGTERM PID
+**forcefully close**= kill -SIGKILL PID
+**temporarily pause**=kill - SIGSTOP PID
+**temporarily continue**=kill - SIGCONT PID
+
+*NOTE: once a system boots and it initialises, systemd is one of the first processes that are started.*
+
+**SERVICE**: A program that  quietly runs in the background
+*syntax*
+systemctl [what to do] [which service]
+**what to do**
+
+
 
