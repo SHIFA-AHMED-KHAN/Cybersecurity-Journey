@@ -122,7 +122,25 @@ Advanced text editor
 
 _______
 ## Day 07 - 11 November 2026 
+## Linux Commands part 3 
 
+## Terminal Text Editors
+
+**Open A File to Edit It**= nano filename
+**up arrow**= move up
+**down arrow**= move down
+**enter key**= next line
+**save a file**= Control+O
+**exit a file**=Control+X
+**Search something in the file**=Control+W
+*ctrl=^ in linux*
+
+## VIM ( Vi-Improved)
+Advanced text editor
+**edit** = i 
+**exit** = 1. esc key | 2. :q! | 3.enter 
+
+_______
 
 ## General/Useful Utilities
 
@@ -152,6 +170,9 @@ python3 -m http.server
 _____
 
 ## PROCESSES 101
+**Program**=Stored instructions on a machine
+**Processes**=Programs currently running on your machine
+
 **Running on your terminal** = ps
 **running on your terminal + elsewhere** = ps aux
 **Live list of programs running** = top 
@@ -169,6 +190,65 @@ _____
 *syntax*
 systemctl [what to do] [which service]
 **what to do**
+- start
+- stop
+- enable
+- disable
+- status
+*example*: systemctl start apache1
+
+**Foreground** = Processes displayed directly in your terminal
+*Commands*:
+- write the command directly (**echo "Hello hacker")
+- pause the current program(**control+z**)
+- continue (**fg**)
+- terminate(control + c )
+**Background** = Running in the background while you are typing other commands 
+*Commands*:
+- & = Run in the background ( **echo "Hi Hacker &** ")
+- pause the current program(**kill -SIGSTOP PID**)
+- continue (**kill -SIGCONT PID**)
+- terminate(**kill PID)
+
+____
+## Maintaining your system automation
+
+[ Robot alarm clock ]
+**Cron runs commands automatically on a schedule.
+
+**crontab**- notebook of schedules
+**crontab -e** = edit 
+**crontab -l** = list all the schedules
+
+***SYNTAX*** 
+ 5 steriks command
+ 1. minutes
+ 2. hours
+ 3. date
+ 4. month
+ 5. day
+ / means schedule it or after this x interval of time repeat it 
+_____
+## Introducing Packages and Software Repos
+
+apt = appstore of linux 
+
+**update**= apt update
+**install**= apt install name
+**remove** = apt remove name
+**what if you gotta get it from another repository** = add-apt-repository REPOSITORY
+**GPG KEYS :** To check if the repository is corrupted or tampered 
+
+___
+## Managing your system logs
+/var/log ( / before teh var means from the root we would check)
+
+/**var/log/apache2** = everybody who visited our website
+**/var/log/fail2ban** = who was attempting again and again ( wrong passwords / credentials)
+**/var/log/ufw** = who got blocked 
+
+_____
+
 
 
 
