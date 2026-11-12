@@ -11,6 +11,6 @@ Learning Cybersecurity from scratch(zero) --> eJPT
 - [x] Day 05 – Weekly review, TryHackMe Linux Fundamentals-1(completed the whole room)
 - [x] Day 06 – Review of THM Linux Fundamentals part 1 , TryHackMe Linux Fundamentals-2(completed the whole room)
 - [x] Day 07 – Review of THM Linux Fundamentals part 1 & 2 , TryHackMe Linux Fundamentals-3(completed the whole room)==> done with linux chapter THM
-- [x] Small lab: Small lab: OverTheWire Bandit levels 0 to 2.
+- [x] Day 08  Small lab: Small lab: OverTheWire Bandit levels 0 to 2.
 
 
