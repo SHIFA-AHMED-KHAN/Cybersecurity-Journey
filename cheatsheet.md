@@ -249,6 +249,37 @@ ___
 
 _____
 
+  ----------------
+  ## Day 08 +09 - 12 + 13 November 2026
+  Topic : OverTheWire Level 0-3
 
+**SSH :** 
+available : username , Url , port number , password 
+
+*ssh username@url -p portnumber*
+password
+
+**cat** 
+
+**CASE 1 - Now when our file's name starts with - or -- that is a bit unusual so to open it we write :**
+Sol :
+example : file name : - (or -- )
+**cat ./ - or cat ./--** ( depending on the name)
+OR
+**cat /home/username/- (or --)**
+
+**CASE 2 -our file's name has spaces in it** 
+
+Sol : 
+**cat ./ ""** ( use quotes and write the file's name in it so that it is treated as one word)
+example : file name : shifa iftikhar
+
+**cat./"Shifa Iftikhar"**
+
+***NOTE : only for files whose name starts with dashes we use cat ./ rest every other character is written inside single quotes .*** 
+Example : filename : !coding
+cat '!coding'
+
+-------------------------------------------------------------------------------------------------
 
 
