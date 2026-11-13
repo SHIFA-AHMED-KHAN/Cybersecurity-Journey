@@ -301,7 +301,43 @@ ___
 
 _____
 
+Friday (13 November 2026 ) 
 
+Topic : OverTheWire Level 0-3
 
+**SSH :** 
+available : username , Url , port number , password 
 
+*ssh username@url -p portnumber*
+password
+
+**cat** 
+
+**CASE 1 - Now when our file's name starts with - or -- that is a bit unusual so to open it we write :**
+Sol :
+example : file name : - (or -- )
+**cat ./ - or cat ./--** ( depending on the name)
+OR
+**cat /home/username/- (or --)**
+
+**CASE 2 -our file's name has spaces in it** 
+
+Sol : 
+**cat ./ ""** ( use quotes and write the file's name in it so that it is treated as one word)
+example : file name : shifa iftikhar
+
+**cat./"Shifa Iftikhar"**
+
+***NOTE : only for files whose name starts with dashes we use cat ./ rest every other character is written inside single quotes .*** 
+Example : filename : !coding
+cat '!coding'
+
+**INTERESTING INSIGHT :** 
+While solving OverTheWire Level 1-2, I was thinking , why write exit in the terminal whe we can simple close it ( X) ? 
+Turns out that we  its always "exit" > "X" , because of the following reasons : 
+1. good practice
+2. your command history is saved ( in your  terminal )
+3. finishes properly ( helps servers clean out when you log out )
+
+-----------------------------------------------------------
 
