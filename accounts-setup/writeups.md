@@ -23,4 +23,8 @@ Day: Friday
 ________-
 ## Date : 10 November 2026 | Day: Tuesday
 ** Paid For TryhackMe premium version to get access to more rooms and lectures.**
+____________________________
+Date : 14 November 2026 
+Day: Saturday
 
+Signed up on HackTheBox 
