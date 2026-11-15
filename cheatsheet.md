@@ -281,5 +281,61 @@ Example : filename : !coding
 cat '!coding'
 
 -------------------------------------------------------------------------------------------------
+Day 11 - 15 November 2026 ( Sunday ) 
+
+## Full Folder Roadmap 
+
+1. Everyday tools like cat , cp etc... (basic Linux commands )= **ls /bin**
+2. Administrative tools (managing disks, network settings)=**ls /sbin**
+3. Starting Linux files- what Linux needs when booting the computer = **ls /boot**
+*QUESTION: WHY DO WE NEED THIS? 
+**- TO UNDERSTAND OUR OS BETTER ; WHEN WE START OUR SYSTEM (KALI), SEVERAL INTERNAL FILES RUN TO START IT. TO SEE THOSE, WE USE THIS COMMAND*
+
+4. Linux represents hardware devices as files here ( hardware room ) - **ls /dev**
+5. Personal room - files and folders are here - **ls /home**
+6. just like C++ programs need libraries here to work(programs share common helper libraries) **ls /lib **
+7. To detect if a USB is plugged in = **/media**
+*Question : What if I insert more than 1 USB ?* 
+***both would show up when i write /media*** 
+8. To extract the contents from a USB =**/mnt
+9. Download it where most of the other programs are = **/usr
+10. Download it seperately (additional software)= **/opt**
+
+*QUESTION: HOW DO I DECIDE WHETHER TO DOWNLOAD IT IN /usr or /opt ?*
+
+Ask yourself the following 3 questions: 
+1. Can I get it through apt? (If yes, then you don't have to choose anything; it goes to the right place by itself)
+2. Did I get a .deb file ( just like .exe in windows)? 
+(If yes, then you don't have to choose anything; just double-click it, and it goes to the right place by itself)
+3. Did  I get a .zip or .tar.gz ? 
+ unzip it 
+ If one file -> /usr
+ a big folder with lots of stuff -> /opt 
+___
+## How Linux is built : 
+
+TOOLS->SHELL->KERNEL->HARDWARE
+A **daemon** is just a working running quietly in the back.
+
+**5 Rules Linux lives by**:
+1. Everything is a file ( devices & settings)
+2. Shell( typing > clicking)
+3. Small tools (each program does its job well)
+4. chain the tools together
+5. even settings=file
+_____
+$= normal user
+'#'= administrative or root user 
+
+PS1="USERNAME@\COMPUTER\$"
+nano /.bashrc
+source /.bashrc
+___
+## Getting Help Like A Pro
+
+full manual of a command -> **man command** ( you know the command here)
+gives you hints ->**apropos keyword** ( you only know about what you need the command)
+
+
 
 
