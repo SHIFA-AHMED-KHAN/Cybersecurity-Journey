@@ -336,6 +336,6 @@ ___
 full manual of a command -> **man command** ( you know the command here)
 gives you hints ->**apropos keyword** ( you only know about what you need the command)
 
-
+cheatsheet 
 
 
