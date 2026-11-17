@@ -14,7 +14,8 @@ Learning Cybersecurity from scratch(zero) --> eJPT
 - [x] Day 08 - Small lab: Small lab: OverTheWire Bandit levels 0 to 2.
 - [x] Day 09 -  MEGA REVISION SESSION + Small lab: OverTheWire Bandit levels 2 to 3.
 - [x] Day 10 -  OverTheWire Bandit levels 3 to 5 
-- [x] Day 11 -  HackTheBox section 1-5  ( LINUX FUNDAMENTALS )
-- [x] Day 12 - JUst revison 
+- [x] Day 11 -  HackTheBox part 1  ( LINUX FUNDAMENTALS )
+- [x] Day 12 - JUst revison
+- [x] Day 13 -  HackTheBox part 2  ( LINUX FUNDAMENTALS )
 
 
