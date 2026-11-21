@@ -17,5 +17,5 @@ Learning Cybersecurity from scratch(zero) --> eJPT
 - [x] Day 11 -  HackTheBox part 1  ( LINUX FUNDAMENTALS )
 - [x] Day 12 - JUst revison
 - [x] Day 13 -  HackTheBox part 2  ( LINUX FUNDAMENTALS )
-
+- [x] Day 14 -  advanced tools in kali linux
 
